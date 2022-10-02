@@ -292,7 +292,7 @@ $(function () {
 
 /*------------------------
    Contact Form
--------------------------- 
+--------------------------*/ 
 var form = $('#contact-form'); // contact form
 var submit = $('#submit-btn'); // submit button
 
@@ -374,4 +374,4 @@ form.on('submit', function (e) {
 	}
 });
 
-})(jQuery) */
+})(jQuery) 
