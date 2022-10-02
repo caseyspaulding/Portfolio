@@ -293,11 +293,11 @@ $(function () {
 /*------------------------
    Contact Form
 --------------------------*/ 
-var form = $('#contact-form'); // contact form
-var submit = $('#submit-btn'); // submit button
+var form = $(''); // contact form
+var submit = $(''); // submit button
 
 // form submit event
-form.on('submit', function (e) {
+form.on('submi', function (e) {
 	e.preventDefault(); // prevent default form submit
 
 	if (typeof $('#google-recaptcha-v3').val() != "undefined") {
