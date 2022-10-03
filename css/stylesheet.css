@@ -851,7 +851,7 @@ hr {
 
 /*== Side Header ==*/
 .side-header #main-wrapper {
-  margin-left: 260px;
+  margin-left: 180px;
 }
 
 .side-header #header {
@@ -862,7 +862,7 @@ hr {
   position: fixed;
   left: 0;
   top: 0;
-  width: 260px;
+  width: 180px;
   height: 100% !important;
   background: #fff;
   border-right: 1px solid rgba(0, 0, 0, 0.07);
@@ -903,7 +903,7 @@ hr {
 }
 
 .side-header.side-header-right #main-wrapper {
-  margin-right: 260px;
+  margin-right: 180px;
   margin-left: auto;
 }
 
@@ -913,7 +913,7 @@ hr {
 }
 
 html[dir="rtl"] .side-header #main-wrapper {
-  margin-right: 260px;
+  margin-right: 180px;
   margin-left: auto;
 }
 
@@ -923,7 +923,7 @@ html[dir="rtl"] .side-header .primary-menu {
 }
 
 html[dir="rtl"] .side-header.side-header-right #main-wrapper {
-  margin-left: 260px;
+  margin-left: 180px;
   margin-right: auto;
 }
 
