@@ -7,7 +7,7 @@
    File Description : Main css file of the template
 	
 =================================================
-  Table of s
+  Table of Contents
 =================================================
 
 	1. Basic
@@ -543,7 +543,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Background light */
 .bg-light-1 {
-  background-color: #f2f4f6 !important;
+  background-color: #e9ecef !important;
 }
 
 .bg-light-2 {
@@ -560,11 +560,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Background Dark */
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: #111418 !important;
 }
 
 .bg-dark-1 {
-  background-color: #080808 !important;
+  background-color: #212529 !important;
 }
 
 .bg-dark-2 {
@@ -825,12 +825,12 @@ hr {
 }
 
 .primary-menu .dropdown-toggle:after {
-  : none;
+  content: none;
 }
 
 .primary-menu.navbar-line-under-text ul.navbar-nav > li > a:not(.btn):after {
   position: absolute;
-  : "";
+  content: "";
   height: 2px;
   width: 0;
   left: 50%;
@@ -851,7 +851,7 @@ hr {
 
 /*== Side Header ==*/
 .side-header #main-wrapper {
-  margin-left: 180px;
+  margin-left: 260px;
 }
 
 .side-header #header {
@@ -862,7 +862,7 @@ hr {
   position: fixed;
   left: 0;
   top: 0;
-  width: 180px;
+  width: 260px;
   height: 100% !important;
   background: #fff;
   border-right: 1px solid rgba(0, 0, 0, 0.07);
@@ -892,7 +892,7 @@ hr {
 }
 
 .side-header ul.navbar-nav li > a:hover:after, .side-header ul.navbar-nav li > a.active:after {
-  : none;
+  content: none;
   width: 0px;
 }
 
@@ -903,7 +903,7 @@ hr {
 }
 
 .side-header.side-header-right #main-wrapper {
-  margin-right: 180px;
+  margin-right: 260px;
   margin-left: auto;
 }
 
@@ -913,7 +913,7 @@ hr {
 }
 
 html[dir="rtl"] .side-header #main-wrapper {
-  margin-right: 180px;
+  margin-right: 260px;
   margin-left: auto;
 }
 
@@ -923,7 +923,7 @@ html[dir="rtl"] .side-header .primary-menu {
 }
 
 html[dir="rtl"] .side-header.side-header-right #main-wrapper {
-  margin-left: 240px;
+  margin-left: 260px;
   margin-right: auto;
 }
 
@@ -1101,7 +1101,7 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
 }
 
 .navbar-expand-none ul.navbar-nav li > a:hover:after, .navbar-expand-none ul.navbar-nav li > a.active:after {
-  : none !important;
+  content: none !important;
   width: 0px !important;
 }
 
@@ -1117,7 +1117,7 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
 }
 
 .navbar-expand-none ul.navbar-nav > li.dropdown:hover > a:after {
-  : none;
+  content: none;
 }
 
 .navbar-expand-none ul.navbar-nav > li.dropdown .dropdown-toggle .arrow:after {
@@ -2387,7 +2387,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   z-index: 1;
 }
 
-.hero-wrap .hero- {
+.hero-wrap .hero-content {
   position: relative;
   z-index: 2;
 }
@@ -2513,7 +2513,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
 }
 
 .brands-grid.separator-border > .row > *:after, .brands-grid.separator-border > .row > *:before {
-  : '';
+  content: '';
   position: absolute;
 }
 
@@ -2610,7 +2610,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   opacity: 1;
 }
 
-html[dir="rtl"] .mfp- {
+html[dir="rtl"] .mfp-content {
   text-align: right;
 }
 
@@ -2627,7 +2627,7 @@ html[dir="rtl"] .mfp-close {
 }
 
 .list-style-1 > li:after {
-  : " ";
+  content: " ";
   position: absolute;
   top: 12px;
   left: -15px;
