@@ -7,7 +7,7 @@
    File Description : Main css file of the template
 	
 =================================================
-  Table of Contents
+  Table of s
 =================================================
 
 	1. Basic
@@ -825,12 +825,12 @@ hr {
 }
 
 .primary-menu .dropdown-toggle:after {
-  content: none;
+  : none;
 }
 
 .primary-menu.navbar-line-under-text ul.navbar-nav > li > a:not(.btn):after {
   position: absolute;
-  content: "";
+  : "";
   height: 2px;
   width: 0;
   left: 50%;
@@ -892,7 +892,7 @@ hr {
 }
 
 .side-header ul.navbar-nav li > a:hover:after, .side-header ul.navbar-nav li > a.active:after {
-  content: none;
+  : none;
   width: 0px;
 }
 
@@ -923,7 +923,7 @@ html[dir="rtl"] .side-header .primary-menu {
 }
 
 html[dir="rtl"] .side-header.side-header-right #main-wrapper {
-  margin-left: 180px;
+  margin-left: 240px;
   margin-right: auto;
 }
 
@@ -1101,7 +1101,7 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
 }
 
 .navbar-expand-none ul.navbar-nav li > a:hover:after, .navbar-expand-none ul.navbar-nav li > a.active:after {
-  content: none !important;
+  : none !important;
   width: 0px !important;
 }
 
@@ -1117,7 +1117,7 @@ html[dir="rtl"] .side-header.side-header-right .primary-menu {
 }
 
 .navbar-expand-none ul.navbar-nav > li.dropdown:hover > a:after {
-  content: none;
+  : none;
 }
 
 .navbar-expand-none ul.navbar-nav > li.dropdown .dropdown-toggle .arrow:after {
@@ -2387,7 +2387,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   z-index: 1;
 }
 
-.hero-wrap .hero-content {
+.hero-wrap .hero- {
   position: relative;
   z-index: 2;
 }
@@ -2513,7 +2513,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
 }
 
 .brands-grid.separator-border > .row > *:after, .brands-grid.separator-border > .row > *:before {
-  content: '';
+  : '';
   position: absolute;
 }
 
@@ -2610,7 +2610,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
   opacity: 1;
 }
 
-html[dir="rtl"] .mfp-content {
+html[dir="rtl"] .mfp- {
   text-align: right;
 }
 
@@ -2627,7 +2627,7 @@ html[dir="rtl"] .mfp-close {
 }
 
 .list-style-1 > li:after {
-  content: " ";
+  : " ";
   position: absolute;
   top: 12px;
   left: -15px;
