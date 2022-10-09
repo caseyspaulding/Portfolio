@@ -11273,7 +11273,7 @@ list-style: none;
 
 .v-center {
     min-height: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
