@@ -150,8 +150,19 @@ a.a-underline:hover span {
 /*  header  */
 
 
-/* ================================================== */
+/* ==================================================
 
+.white-bg {
+    background-image: linear-gradient(rgba(f,f,f,.9),rgba(f,f,f,.9), url('../images/background/whitetech1001.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container{
+    height: 50vh;
+}
+*/
 header {
     width: 100%;
     position: absolute;
@@ -11262,14 +11273,14 @@ list-style: none;
 
 .v-center {
     min-height: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
 }
 
 
 .f-logo {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .rtl .f-logo {
