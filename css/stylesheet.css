@@ -2404,7 +2404,7 @@ html[dir="rtl"] .nav.nav-separator .nav-item + .nav-item .nav-link:after {
 
 .hero-wrap .hero-bg {
   z-index: 0;
-  position: fixed;
+  
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
