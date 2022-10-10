@@ -2,11 +2,11 @@
 		COLOR Blue
 ==============================*/
 ::selection {
-  background: #1480FF;
+  background: #0099ff;
 }
 
 a, a:focus {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 a:hover, a:active {
@@ -14,36 +14,36 @@ a:hover, a:active {
 }
 
 .primary-menu ul.navbar-nav > li:hover > a:not(.btn), .primary-menu ul.navbar-nav > li > a.active:not(.btn) {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .primary-menu ul.navbar-nav > li.dropdown .dropdown-menu li:hover > a:not(.btn) {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .primary-menu.navbar-line-under-text ul.navbar-nav > li > a:not(.btn):after {
-  border-color: #1480FF;
+  border-color: #0099ff;
 }
 
 /*== Secondary Nav ==*/
 .secondary-nav.nav.alternate .nav-item .nav-link.active {
-  border-color: #1480FF;
+  border-color: #0099ff;
 }
 
 /* Page Header */
 .page-header.page-header-text-dark .breadcrumb > li a:hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 /* Accordion & Toggle */
 .accordion:not(.accordion-alternate) .card-header a {
-  background-color: #1480FF;
+  background-color: #0099ff;
   color: #fff;
 }
 
 /* Nav */
 .nav:not(.nav-pills) .nav-item .nav-link.active, .nav:not(.nav-pills) .nav-item .nav-link:hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .nav-tabs .nav-item .nav-link.active {
@@ -51,50 +51,50 @@ a:hover, a:active {
 }
 
 .nav-tabs .nav-item .nav-link.active:after {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
 
 .nav-tabs .nav-item .nav-link:not(.active):hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .nav-tabs.flex-column .nav-item .nav-link.active {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .nav-pills .nav-link:not(.active):hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 /* Brands Grid */
 .brands-grid > .row > div a:hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 #footer .nav .nav-item .nav-link:focus {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 #footer .nav .nav-link:hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 #footer .footer-copyright .nav .nav-link:hover {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 /* Back to Top */
 #back-to-top:hover {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
 
 /* Extras */
 .bg-primary {
-  background-color: #1480FF !important;
+  background-color: #0099ff !important;
 }
 
 .text-primary, .btn-light, .btn-outline-light:hover, .btn-link, .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active {
-  color: #1480FF !important;
+  color: #0099ff !important;
 }
 
 .btn-link:hover {
@@ -114,12 +114,12 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 .border-primary {
-  border-color: #1480FF !important;
+  border-color: #0099ff !important;
 }
 
 .btn-primary {
-  background-color: #1480FF;
-  border-color: #1480FF;
+  background-color: #0099ff;
+  border-color: #0099ff;
 }
 
 .btn-primary:hover {
@@ -138,19 +138,19 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 .btn-outline-primary, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active {
-  color: #1480FF;
-  border-color: #1480FF;
+  color: #0099ff;
+  border-color: #0099ff;
 }
 
 .btn-outline-primary:hover, .btn-outline-primary:not(:disabled):not(.disabled).active:hover, .btn-outline-primary:not(:disabled):not(.disabled):active:hover {
-  background-color: #1480FF;
-  border-color: #1480FF;
+  background-color: #0099ff;
+  border-color: #0099ff;
   color: #fff;
 }
 
 .progress-bar,
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link, .dropdown-item.active, .dropdown-item:active {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
 
 .page-item.active .page-link,
@@ -158,17 +158,17 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 .custom-control-input:checked ~ .custom-control-label::before,
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
 .custom-control-input:checked ~ .custom-control-label:before {
-  background-color: #1480FF;
-  border-color: #1480FF;
+  background-color: #0099ff;
+  border-color: #0099ff;
 }
 
 .list-group-item.active {
-  background-color: #1480FF;
-  border-color: #1480FF;
+  background-color: #0099ff;
+  border-color: #0099ff;
 }
 
 .page-link {
-  color: #1480FF;
+  color: #0099ff;
 }
 
 .page-link:hover {
@@ -176,21 +176,21 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
 }
 
 .owl-theme.single-slideshow .owl-dots .owl-dot.active span, .owl-theme.single-slideshow .owl-dots .owl-dot:hover span {
-  border-color: #1480FF;
+  border-color: #0099ff;
 }
 
 .owl-theme.single-slideshow .owl-dots .owl-dot.active span:after, .owl-theme.single-slideshow .owl-dots .owl-dot:hover span:after {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  border-color: #1480FF;
+  border-color: #0099ff;
 }
 
 .owl-theme .owl-dots .owl-dot.active span:after, .owl-theme .owl-dots .owl-dot:hover span:after {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
 
 .owl-theme.dots-light .owl-dots .owl-dot.active span:after, .owl-theme.dots-light .owl-dots .owl-dot:hover span:after {
-  background-color: #1480FF;
+  background-color: #0099ff;
 }
