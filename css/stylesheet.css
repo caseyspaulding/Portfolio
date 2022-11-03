@@ -36,6 +36,10 @@ p.small {
   line-height: 0.5;
 }
 
+p.big {
+  line-height: 2.8;
+}
+
 body, html {
   height: 100%;
 }
